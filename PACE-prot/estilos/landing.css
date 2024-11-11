@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    color: white !important;
+    /* background-color: #252525; */
+    background-color: #151515;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav {
+    background-color: #252525;
+    /* background-color: #141414 !important; */
+    border-radius: 10px;
+    padding: 30px;
+}
+
+a {
+    color: white !important;
+}
+
+#logo {
+    max-width: 110px;
+    max-height: 110px;
+    margin-left: 20px;
+    border-right: 1.5px solid white;
+    padding-right: 15px;
+}
+
+#navbarNav {
+    margin-left: 5%;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.signup, .signin {
+    /* background-color: #2B4C7E !important; */
+    background-color: #151515 !important;
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px !important;
+    color: #FF6B2B !important;
+    font-weight: 400;
+    border: 0.1px solid #FF6B2B;
+}
+
+.botoes {
+    margin-left: 65% !important;
+}
+
+#titulo {
+    font-family: 'Audiowide', sans-serif;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.conteudo, .conteudo2, .video_img{
+    width: 40%;
+    float: right;
+    margin-right: 8%;
+}
+
+.logospace {
+    width: 40%;
+    float: right;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.conteudo {
+    margin: 5%;
+}
+
+.conteudo2 {
+    margin-top: 3%;
+}
+
+.video_img {
+    margin-top: 5%;
+}
+
+#padraopace, #logospace {
+    border-radius: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+#formcontato {
+    font-weight: 500;
+}
+
+main {
+    margin-top: 3%;
+}
+
+footer {
+    /* display: flex;
+    flex-direction: row; */
+    background-color: #252525; 
+    color: white;
+    max-height: 100px;
+}
+
+#imgrodape {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 20px;
+}
+
+#icones {
+    display: block;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
