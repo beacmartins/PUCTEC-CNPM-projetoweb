@@ -1,0 +1,71 @@
+/* Importação de fonte */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F6F8;
+}
+
+header img#logo {
+    width: 120px;
+}
+
+header {
+    height: 100px;
+    background: linear-gradient(135deg, #051B3E, #4A90E2); 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+    color: white; 
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.bg-gradient {
+    background: linear-gradient(135deg, #051B3E, #4A90E2);
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+blockquote {
+    font-style: italic;
+    color: #4A90E2;
+}
+
+section {
+    background-color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img#footer-logo {
+    width: 100px;
+}
+
+footer i {
+    font-size: 1.5rem;
+}

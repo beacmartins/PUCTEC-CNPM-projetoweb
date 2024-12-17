@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 2%;
+}
+
+#titulo {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #4A90E2;
+    margin-left: 6%;
+}
+
+h2 {
+    color: #051B3E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+nav {
+    background-color: #051B3E;
+    border-radius: 5px;
+    border-bottom: 0.1px solid #051B3E;
+    padding: 30px;
+    color: white;
+}
+
+a {
+    color: black !important;
+}
+
+#logo {
+    max-width: 110px;
+    max-height: 110px;
+    margin-left: 20px;
+    border-right: 1.5px solid #4A90E2;
+    padding-right: 15px;
+}
+
+#navbarNav {
+    margin-left: 5%;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-link {
+    font-size: 15x !important;
+    font-weight: 400;
+    color: white !important;
+}
+
+header {
+    margin-bottom: 3%;
+}
+
+.material-symbols-outlined {
+    font-size: 35px;
+    margin-right: 10px; /* Ajusta o espaço entre o ícone e o nome */
+    font-weight: 200;
+}
+
+.nomeuser {
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 80px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; /* Espaçamento entre os itens do menu */
+}
+
+.nav-link:hover {
+    background-color: #4a91e296;
+    border-radius: 10px;
+}
+
+.d-flex {
+    display: flex;
+    margin-left: 25%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* Estilo do menu */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Estilo da lista de módulos */
+.modules {
+    width: 50%;
+}
+
+.modules ul {
+    list-style-type: none;
+}
+
+.modules li {
+    margin: 10px 0;
+}
+
+.modules a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+.modules a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Estilo da barra de progresso */
+.progress-container {
+    width: 30%;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #4caf4ff1;
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+#progress-text {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #051B3E;
+}
+
+.module-link.concluido {
+    color: green;
+    font-weight: bold;
+    text-decoration: line-through;
+}
