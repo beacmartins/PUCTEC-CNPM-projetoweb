@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page empresa de gamificação de processos de treinamento PACE">
+    <meta name="keywords" content="PACE, RH, gamificação, videoaula, startup, empresa">
+    <meta name="author" content="Beatriz Camila Dev da PACE">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle" />
+    <link rel="stylesheet" href="estilos/videoaulas.css">
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <title>PACE - Videoaulas</title>
+</head>
+<body>
+    <header class="barraMenu">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="home.html"><img id="logo" src="imagens/logotipo/png/azul_claro.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <div class="d-flex align-items-center w-100 ">
+                      <ul class="navbar-nav d-flex">
+                          <li class="nav-item">
+                            <a class="nav-link" href="videoaulas.html">Videoaulas</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="exercicios.html">Exercícios</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="modulos.html">Módulos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="games.html">Games</a>
+                          </li>
+                      </ul>
+
+                      <div class="d-flex align-items-center">
+                          <span class="material-symbols-outlined">account_circle</span>
+                          <span class="nomeuser">User</span>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="texto">
+            <h1 id="titulo">Treinamento: IT – FR – 02</h1>
+            <h2>Módulo 01 - Manuseio tampa de carreta</h2>
+            <h3>Resumo aula</h3>
+            <p id="resumo">Bem-vindo ao nosso treinamento sobre segurança e procedimentos operacionais no manuseio de tampas de carretas carga seca e trucks. Neste curso, você aprenderá sobre as práticas essenciais para garantir a segurança e eficiência no transporte de cargas. Exploraremos as etapas críticas desde a inspeção inicial do veículo até o correto manuseio e fechamento das tampas, sempre enfatizando a importância do uso adequado de Equipamentos de Proteção Individual (EPIs) e a observância das normas de segurança. Nosso objetivo é capacitá-lo para desempenhar suas funções com excelência, minimizando riscos e promovendo um ambiente de trabalho seguro e produtivo. Esperamos que este treinamento seja uma experiência enriquecedora e que você se sinta preparado para aplicar esses conhecimentos no seu dia a dia.<p>
+
+            <div class="botoes">
+                <h3>Mão na massa!</h3>
+                <p id="textodiv">Coloque em prática o que aprendeu nessa aula resolvendo exercícios customizados e exclusivos.</p>
+                <button id="botaoExercicios"><a id="linkExercicios" href="exercicios.html?aula=1">Ir para exercícios</a></button>
+                <button id="botaoGames"><a href="games.html">Games</a></button>
+                <button id="botaoProx" onclick="avancarAula()"><a href="#">Próxima Aula</a></button>
+            </div>
+        </section>
+
+        <section class="video">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/IofGLtMVSjM?si=l3cjsggB4tRd6yeG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="videomain"></iframe>
+        </section>
+    </main>
+
+    <script src="scripts/videoaulas.js"></script>
+</body>
+</html>
