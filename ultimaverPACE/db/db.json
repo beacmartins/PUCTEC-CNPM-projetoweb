@@ -1,0 +1,299 @@
+{
+  "modulos": [
+    {
+      "id": 1,
+      "nome": "Treinamento de Motoristas - Manuseio e Segurança",
+      "descricao": "Módulo voltado para segurança e boas práticas no manuseio de veículos e cargas.",
+      "aulas": [
+        {
+          "id": 1,
+          "titulo": "Manuseio das Tampas das Carretas",
+          "perguntas": [
+            {
+              "id": 1,
+              "pergunta": "Qual é a primeira ação que um motorista deve realizar antes de iniciar o manuseio das tampas das carretas?",
+              "opcoes": [
+                "Começar a abrir as tampas imediatamente.",
+                "Realizar uma conferência visual no veículo.",
+                "Solicitar ajuda de um colega.",
+                "Colocar os pinos de segurança."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 2,
+              "pergunta": "Quais Equipamentos de Proteção Individual (EPIs) são mencionados como necessários para o manuseio das tampas?",
+              "opcoes": [
+                "Óculos de segurança, botina ou sapato de segurança, uniformes, luvas, protetor auricular.",
+                "Capacete, máscara de solda, botas de borracha, jaleco.",
+                "Óculos de sol, sandálias, chapéu de palha.",
+                "Luvas de couro, colete refletivo, botas de couro."
+              ],
+              "respostaCorreta": 0
+            },
+            {
+              "id": 3,
+              "pergunta": "O que deve ser feito se o motorista perceber que algum item de segurança não está em conformidade?",
+              "opcoes": [
+                "Continuar o trabalho com cuidado.",
+                "Relatar a situação ao gestor direto ou técnico de segurança do trabalho.",
+                "Tentar consertar o item por conta própria.",
+                "Ignorar e seguir em frente."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 4,
+              "pergunta": "Durante o processo de abertura das tampas, qual é a posição recomendada para o motorista?",
+              "opcoes": [
+                "Ao lado da tampa.",
+                "Ao centro da tampa.",
+                "Atrás da tampa.",
+                "Na frente da tampa."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 5,
+              "pergunta": "Qual é o procedimento correto após o fechamento de cada tampa?",
+              "opcoes": [
+                "Deixar a tampa aberta para ventilação.",
+                "Colocar o pino de segurança um lado por vez.",
+                "Fechar todas as tampas ao mesmo tempo.",
+                "Não usar pinos de segurança."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 6,
+              "pergunta": "Qual é o principal objetivo deste treinamento sobre manuseio de tampas de carretas?",
+              "opcoes": [
+                "Aumentar a velocidade de carregamento.",
+                "Reduzir o número de funcionários necessários.",
+                "Padronizar ações e garantir a segurança do motorista e dos materiais transportados.",
+                "Economizar nos custos de manutenção."
+              ],
+              "respostaCorreta": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "titulo": "Processos de Coleta e Documentação",
+          "perguntas": [
+            {
+              "id": 1,
+              "pergunta": "Qual é o procedimento correto a ser tomado quando o motorista identifica uma quantidade incorreta de mercadoria durante o carregamento?",
+              "opcoes": [
+                "Continuar com o carregamento e informar o cliente no destino.",
+                "Ajustar a quantidade por conta própria e seguir com o carregamento.",
+                "Empedir o carregamento e entrar imediatamente em contato com a Autolog para esclarecimentos.",
+                "Informar o supervisor no final do turno."
+              ],
+              "respostaCorreta": 2
+            },
+            {
+              "id": 2,
+              "pergunta": "O que o motorista deve fazer após se dirigir ao endereço de coleta?",
+              "opcoes": [
+                "Aguardar no veículo até ser chamado.",
+                "Iniciar o carregamento sem informar ninguém.",
+                "Procurar o gerente da empresa para obter instruções detalhadas.",
+                "Dirigir-se ao guichê, recepção ou responsável para informar sua chegada e confirmar a coleta."
+              ],
+              "respostaCorreta": 3
+            },
+            {
+              "id": 3,
+              "pergunta": "Qual é a importância de garantir a assinatura de toda a documentação após a coleta?",
+              "opcoes": [
+                "Para evitar multas de trânsito.",
+                "Para garantir que o cliente receba um comprovante de entrega.",
+                "Para registrar a quilometragem do veículo no final da rota.",
+                "Para assegurar que o processo de coleta foi realizado corretamente e anular riscos fiscais e legais."
+              ],
+              "respostaCorreta": 3
+            },
+            {
+              "id": 4,
+              "pergunta": "Em rotas com mais de um destino, qual é a principal atenção que o motorista deve ter?",
+              "opcoes": [
+                "Confirmar que a carga correta é descarregada no cliente certo.",
+                "Garantir que todos os documentos sejam assinados antes de cada entrega.",
+                "Verificar se o veículo está devidamente abastecido.",
+                "Manter contato constante com a central de operações."
+              ],
+              "respostaCorreta": 0
+            },
+            {
+              "id": 5,
+              "pergunta": "Quais documentos são essenciais para o processo de carregamento, conforme descrito no treinamento?",
+              "opcoes": [
+                "Carteira de identidade e comprovante de residência.",
+                "Contrato de trabalho e ficha de ponto.",
+                "Relatório de manutenção do veículo e apólice de seguro.",
+                "CTE, nota fiscal e ordem de coleta."
+              ],
+              "respostaCorreta": 3
+            },
+            {
+              "id": 6,
+              "pergunta": "Em caso de inconformidade durante o processo de coleta, qual é a ação recomendada?",
+              "opcoes": [
+                "Continuar o processo e relatar a inconformidade na próxima reunião de equipe.",
+                "Ignorar a inconformidade se ela não for grave.",
+                "Entrar em contato com o setor responsável na Autolog imediatamente.",
+                "Tentar resolver a inconformidade por conta própria e informar o cliente."
+              ],
+              "respostaCorreta": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "titulo": "Processo de Expedição de Materiais",
+          "perguntas": [
+            {
+              "id": 1,
+              "pergunta": "Qual é o primeiro passo no processo de expedição de materiais?",
+              "opcoes": [
+                "Conferir os documentos de embarque.",
+                "Separar os materiais no ato do recebimento.",
+                "Colar as etiquetas nos produtos.",
+                "Carregar os produtos nos veículos."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 2,
+              "pergunta": "Qual ferramenta é utilizada para identificar os materiais durante a expedição?",
+              "opcoes": [
+                "Filme Stretch.",
+                "Paleteira.",
+                "Etiqueta com QR CODE.",
+                "Empilhadeira."
+              ],
+              "respostaCorreta": 2
+            },
+            {
+              "id": 3,
+              "pergunta": "O que deve ser feito em caso de anormalidades durante a expedição?",
+              "opcoes": [
+                "Ignorar a anormalidade e continuar o processo",
+                "Relatar o ocorrido ao responsável pelo armazém.",
+                "Esperar que o problema se resolva sozinho.",
+                "Informar o motorista do veículo."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 4,
+              "pergunta": "Qual é o objetivo do picking de saída?",
+              "opcoes": [
+                "Armazenar os produtos temporariamente.",
+                "Conferir e unitizar os produtos em pallets e/ou gaiolas.",
+                "Gerar o manifesto de carga.",
+                "Colocar os produtos nas áreas destinadas."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 5,
+              "pergunta": "O que é necessário para liberar o veículo para entrega?",
+              "opcoes": [
+                "Apenas o CTe.",
+                "Conferência dos produtos.",
+                "Manifesto de carga gerado e entregue.",
+                "Apenas a assinatura do supervisor."
+              ],
+              "respostaCorreta": 2
+            },
+            {
+              "id": 6,
+              "pergunta": "Como os produtos são organizados antes do embarque?",
+              "opcoes": [
+                "De acordo com o tamanho dos produtos.",
+                "Aleatoriamente, conforme espaço disponível.",
+                "Nas áreas destinadas a cada cliente/localidade.",
+                "Apenas por ordem de chegada."
+              ],
+              "respostaCorreta": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "titulo": "Manual do motorista Autolog",
+          "perguntas": [
+            {
+              "id": 1,
+              "pergunta": "Qual é a ação correta a ser tomada em caso de neblina durante a viagem?",
+              "opcoes": [
+                "Manter a luz baixa acesa e reduzir a velocidade sem frear bruscamente.",
+                "Ligar o pisca-alerta e continuar dirigindo normalmente.",
+                "Aumentar a velocidade para passar rapidamente pela área com neblina.",
+                "Parar imediatamente no meio da estrada até a neblina passar."
+              ],
+              "respostaCorreta": 0
+            },
+            {
+              "id": 2,
+              "pergunta": "Qual é a política da AUTOLOG em relação ao uso de celulares durante a condução?",
+              "opcoes": [
+                "O uso de celular é estritamente proibido durante a condução.",
+                "É permitido usar o celular apenas em manobras.",
+                "O uso de celular é permitido se for urgente.",
+                "É permitido usar o celular apenas em áreas urbanas."
+              ],
+              "respostaCorreta": 0
+            },
+            {
+              "id": 3,
+              "pergunta": "O que deve ser feito se um motorista perceber que a sinalização da rodovia está prejudicada por vegetação excessiva?",
+              "opcoes": [
+                "Continuar dirigindo na mesma velocidade.",
+                "Ignorar a situação e seguir viagem.",
+                "Reduzir a velocidade e manter uma distância segura do veículo à frente.",
+                "Parar o veículo imediatamente no acostamento."
+              ],
+              "respostaCorreta": 2
+            },
+            {
+              "id": 4,
+              "pergunta": "Qual é a importância do tacógrafo nos veículos da AUTOLOG?",
+              "opcoes": [
+                "Apenas para controlar a velocidade do veículo.",
+                "Para registrar e monitorar a velocidade e o tempo de direção.",
+                "Para substituir o velocímetro do veículo.",
+                "Apenas para uso em auditorias internas."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 5,
+              "pergunta": "Quais são as recomendações em caso de encontrar animais na pista?",
+              "opcoes": [
+                "Frear bruscamente e buzinar para afastar os animais.",
+                "Verificar pelo retrovisor e sinalizar a área, evitando frear bruscamente.",
+                "Acelerar para passar rapidamente pelos animais.",
+                "Parar o veículo e tentar afastar os animais manualmente."
+              ],
+              "respostaCorreta": 1
+            },
+            {
+              "id": 6,
+              "pergunta": "O que deve fazer o motorista ao se deparar com uma queimada na estrada?",
+              "opcoes": [
+                "Reduzir a velocidade, acender os faróis baixos e manter distância das chamas.",
+                "Parar o veículo e esperar a queimada terminar.",
+                "Aumentar a velocidade para atravessar rapidamente a área.",
+                "Ignorar a queimada e seguir viagem normalmente."
+              ],
+              "respostaCorreta": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
